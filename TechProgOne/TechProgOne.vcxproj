@@ -102,7 +102,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions); _CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
@@ -127,7 +127,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Boat.cpp" />
+    <ClCompile Include="Keeper.cpp" />
+    <ClCompile Include="menu.cpp" />
+    <ClCompile Include="Sailboat.cpp" />
+    <ClCompile Include="Ship.cpp" />
+    <ClCompile Include="Submarine.cpp" />
     <ClCompile Include="TechProgOne.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Boat.h" />
+    <ClInclude Include="Keeper.h" />
+    <ClInclude Include="menu.h" />
+    <ClInclude Include="Sailboat.h" />
+    <ClInclude Include="Ship.h" />
+    <ClInclude Include="Submarine.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
