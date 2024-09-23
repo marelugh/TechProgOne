@@ -7,14 +7,17 @@
 
 class Ship {
 protected: 
-	std::string name;
+	std::string shipInfo;
 public:
 
 	Ship();
-	Ship(const std::string& name);
+	Ship(const std::string& info);
 	Ship(const Ship& other);
+	~Ship();
 
-	std::string getName() const;
-	void setName(const std::string& name);
+	std::string getInfo() const;
+	void setInfo(const std::string& name);
+
+	virtual void displayInfo() const = 0;
 };
 #endif // SHIP_H

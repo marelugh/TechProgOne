@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{05D69CCF-AA19-45F9-9471-0504CF3EEFE1}|TechProgOne\\TechProgOne.vcxproj|C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\Ship.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{05D69CCF-AA19-45F9-9471-0504CF3EEFE1}|TechProgOne\\TechProgOne.vcxproj|solutionrelative:TechProgOne\\Ship.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{05D69CCF-AA19-45F9-9471-0504CF3EEFE1}|TechProgOne\\TechProgOne.vcxproj|C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\Sailboat.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{05D69CCF-AA19-45F9-9471-0504CF3EEFE1}|TechProgOne\\TechProgOne.vcxproj|solutionrelative:TechProgOne\\Sailboat.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05D69CCF-AA19-45F9-9471-0504CF3EEFE1}|TechProgOne\\TechProgOne.vcxproj|C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\Sailboat.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{05D69CCF-AA19-45F9-9471-0504CF3EEFE1}|TechProgOne\\TechProgOne.vcxproj|solutionrelative:TechProgOne\\Sailboat.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05D69CCF-AA19-45F9-9471-0504CF3EEFE1}|TechProgOne\\TechProgOne.vcxproj|C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\TechProgOne.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{05D69CCF-AA19-45F9-9471-0504CF3EEFE1}|TechProgOne\\TechProgOne.vcxproj|solutionrelative:TechProgOne\\TechProgOne.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{05D69CCF-AA19-45F9-9471-0504CF3EEFE1}|TechProgOne\\TechProgOne.vcxproj|C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\Ship.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{05D69CCF-AA19-45F9-9471-0504CF3EEFE1}|TechProgOne\\TechProgOne.vcxproj|solutionrelative:TechProgOne\\Ship.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{05D69CCF-AA19-45F9-9471-0504CF3EEFE1}|TechProgOne\\TechProgOne.vcxproj|C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\TechProgOne.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{05D69CCF-AA19-45F9-9471-0504CF3EEFE1}|TechProgOne\\TechProgOne.vcxproj|solutionrelative:TechProgOne\\TechProgOne.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{05D69CCF-AA19-45F9-9471-0504CF3EEFE1}|TechProgOne\\TechProgOne.vcxproj|C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\Ship.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{05D69CCF-AA19-45F9-9471-0504CF3EEFE1}|TechProgOne\\TechProgOne.vcxproj|solutionrelative:TechProgOne\\Ship.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,17 +30,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Ship.h",
               "DocumentMoniker": "C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\Ship.h",
               "RelativeDocumentMoniker": "TechProgOne\\Ship.h",
               "ToolTip": "C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\Ship.h",
               "RelativeToolTip": "TechProgOne\\Ship.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-09-10T11:47:15.012Z",
               "IsPinned": true,
@@ -40,15 +48,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Ship.cpp",
               "DocumentMoniker": "C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\Ship.cpp",
               "RelativeDocumentMoniker": "TechProgOne\\Ship.cpp",
               "ToolTip": "C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\Ship.cpp",
               "RelativeToolTip": "TechProgOne\\Ship.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-10T11:46:13.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Sailboat.h",
+              "DocumentMoniker": "C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\Sailboat.h",
+              "RelativeDocumentMoniker": "TechProgOne\\Sailboat.h",
+              "ToolTip": "C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\Sailboat.h",
+              "RelativeToolTip": "TechProgOne\\Sailboat.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-23T17:07:28.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Sailboat.cpp",
+              "DocumentMoniker": "C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\Sailboat.cpp",
+              "RelativeDocumentMoniker": "TechProgOne\\Sailboat.cpp",
+              "ToolTip": "C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\Sailboat.cpp",
+              "RelativeToolTip": "TechProgOne\\Sailboat.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-23T17:07:18.341Z",
               "EditorCaption": ""
             },
             {
@@ -59,7 +93,7 @@
               "RelativeDocumentMoniker": "TechProgOne\\TechProgOne.cpp",
               "ToolTip": "C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\TechProgOne.cpp",
               "RelativeToolTip": "TechProgOne\\TechProgOne.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-10T06:28:53.794Z",
               "EditorCaption": ""
