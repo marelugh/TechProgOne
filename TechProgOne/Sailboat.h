@@ -2,43 +2,50 @@
 #define SAILBOAT_H
 
 #include "Ship.h"
-#include <iostream>
+#include "List.h"
+#include <string>
+#include <fstream>
+using namespace std;
 
 class Sailboat : public Ship {
 private:
-	char* type;
-	char* name;
-	bool isMilitary;
-	double length;
-	double speed;
-	char** crew;
-	int crewSize;
+    string type;
+    string name;
+    bool isMilitary;
+    int length;
+    int speed;
+    List crew;
 
 public:
+    Sailboat();
+    Sailboat(string type, string name, bool isMilitary, int length, int speed, string crewMember);
+    Sailboat(const Sailboat& other);
+    ~Sailboat();
 
-	Sailboat();
-	Sailboat(const char* type, const char* name, bool isMilitary, double length, double speed, const char** crew, int crewSize);
-	Sailboat(const Sailboat& other);
-	~Sailboat();
+    string getType() const;
+    void setType(const string& type);
 
-	const char* getType() const;
-	void setType(const char* type);
+    string getName() const;
+    void setName(const string& name);
 
-	const char* getName() const;
-	void setName(const char* name);
+    bool getIsMilitary() const;
+    void setIsMilitary(bool isMilitary);
 
-	bool getIsMilitary() const;
-	void setIsMilitary(bool isMilitary);
+    int getLength() const;
+    void setLength(int length);
 
-	double getLength() const;
-	void setLength(double length);
+    int getSpeed() const;
+    void setSpeed(int speed);
 
-	double getSpeed() const;
-	void setSpeed(double speed);
+    List getCrew() const;
+    void setCrew(const string& crewMember);
 
-	char** getCrew() const;
-	int getCrewSize() const;
-	void setCrew(const char** crew, int crewSize);
+    // Методы для взаимодействия с пользователем и файлами
+    void input();
+    void change();
+    void print();
+    void saveToFile(ofstream& file);
+    void loadFromFile(ifstream& file);
 };
 
 #endif // SAILBOAT_H

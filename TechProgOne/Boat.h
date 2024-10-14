@@ -1,37 +1,49 @@
 #ifndef BOAT_H
 #define BOAT_H
 #include "Ship.h"
-#include<iostream>
+#include "List.h"
+#include <string>
+#include <fstream>
 
 class Boat : public Ship {
 private:
-	char* purpose;
-	char* material;
-	int speed;
-	int amountOfPeople;
-	char** qualities;
-	int amountOfQualities;
+    string boatName;
+    string purpose;
+    string material;
+    int speed;
+    int amountOfPeople;
+    List qualities;
+
 public:
-	Boat();
-	Boat(const char* purpose, const char* material, int speed, int amountOfPeople, const char** qualities, int amountOfQualities);
-	Boat(const Boat& other);
-	~Boat();
+    Boat();
+    Boat(string purpose, string material, int speed, int amountOfPeople, string quality, string boatName);
+    Boat(const Boat& other);
+    ~Boat();
 
-	const char* getPurpose() const;
-	void setPurpose(const char* purpose);
+    string getPurpose() const;
+    void setPurpose(const string& name);
 
-	const char* getMaterial() const;
-	void setMaterial(const char* material);
+    string getName() const;
+    void setName(const string& name);
 
-	int getSpeed() const;
-	void setSpeed(int speed);
+    string getMaterial() const;
+    void setMaterial(const string& material);
 
-	int getAmountOfPeople() const;
-	void setAmountOfPeople(int amountOfPeople);
+    int getSpeed() const;
+    void setSpeed(int speed);
 
-	char** getQualities() const;
-	int getAmountOfQualities() const;
-	void setQualities(const char** qualities, int amountOfQualities);
+    int getAmountOfPeople() const;
+    void setAmountOfPeople(int amountOfPeople);
+
+    List getQualities() const;
+    void setQualities(const string& quality);
+
+    // Методы взаимодействия с пользователем и файлами
+    void input();
+    void print();
+    void change();
+    void saveToFile(ofstream& file);
+    void loadFromFile(ifstream& file);
 };
 
-#endif 
+#endif // BOAT_H

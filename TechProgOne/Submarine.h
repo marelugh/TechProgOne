@@ -1,46 +1,54 @@
 #ifndef SUBMARINE_H
 #define SUBMARINE_H
 #include "Ship.h"
-#include <iostream>
+#include "List.h"
+#include <string>
+#include <fstream>
+using namespace std;
 
 class Submarine : public Ship {
 private:
-	double length;
-	double width;
-	char** crew;
-	int crewSize;
-	int underwaterTime;
-	int underwaterSpeed;
-	char** ammo;
-	int ammoAmount;
+    string name;
+    int length;
+    int width;
+    List crew;            // Список экипажа
+    int underwaterTime;
+    int underwaterSpeed;
+    List ammo;            // Список боеприпасов
 
 public:
-	Submarine();
-	Submarine(double length, double width, const char** crew, int crewSize, int underwaterTime, int underwaterSpeed, const char** ammo, int ammoAmount);
-	Submarine(const Submarine& other);
-	~Submarine();
+    Submarine();
+    Submarine(int length, int width, string crew, int underwaterTime, int underwaterSpeed, string ammo, string name);
+    Submarine(const Submarine& other);
+    ~Submarine();
 
-	double getLength() const;
-	void setLength(double length);
+    int getLength() const;
+    void setLength(int length);
 
-	double getWidth() const;
-	void setWidth(double width);
+    int getWidth() const;
+    void setWidth(int width);
 
-	char** getCrew() const;
-	int getCrewSize() const;
-	void setCrew(const char** crew, int crewSize);
+    string getName() const;
+    void setName(const string& name);
 
-	int getUnderwaterTime() const;
-	void setUnderwaterTime(int underwaterTime);
+    List getCrew() const;
+    void setCrew(const string& crewMember);
 
-	int getUnderwaterSpeed() const;
-	void setUnderwaterSpeed(int underwaterSpeed);
+    int getUnderwaterTime() const;
+    void setUnderwaterTime(int underwaterTime);
 
-	char** getAmmo() const;
-	int getAmmoAmount() const;
-	void setAmmo(const char** ammo, int ammoAmount);
+    int getUnderwaterSpeed() const;
+    void setUnderwaterSpeed(int underwaterSpeed);
+
+    List getAmmo() const;
+    void setAmmo(const string& ammoItem);
+
+    // Новые методы
+    void input();
+    void print();
+    void change();
+    void saveToFile(ofstream& file);
+    void loadFromFile(ifstream& file);
 };
 
-
-#endif // !SUBMARINE_H
-
+#endif // SUBMARINE_H

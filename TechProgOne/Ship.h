@@ -2,22 +2,16 @@
 #define SHIP_H
 
 #include <iostream>
-#include <stdexcept>
-#include <string>
+#include <fstream>
+
+using namespace std;
 
 class Ship {
-protected: 
-	std::string shipInfo;
 public:
-
-	Ship();
-	Ship(const std::string& info);
-	Ship(const Ship& other);
-	~Ship();
-
-	std::string getInfo() const;
-	void setInfo(const std::string& name);
-
-	virtual void displayInfo() const = 0;
+	virtual void print() = 0;
+	virtual void input() = 0;
+	virtual void saveToFile(ofstream& file);
+	virtual void loadFromFile(ifstream& file);
+	virtual void change();
 };
 #endif // SHIP_H

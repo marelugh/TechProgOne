@@ -1,9 +1,5 @@
 ﻿  Boat.cpp
-  Keeper.cpp
-  TechProgOne.cpp
-  menu.cpp
-C:\Users\dimka\OneDrive\Рабочий стол\Технология Программирования\Лабароторная 1\TechProgOne\TechProgOne\menu.cpp(52,26): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
-C:\Users\dimka\OneDrive\Рабочий стол\Технология Программирования\Лабароторная 1\TechProgOne\TechProgOne\menu.cpp(53,39): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
-C:\Users\dimka\OneDrive\Рабочий стол\Технология Программирования\Лабароторная 1\TechProgOne\TechProgOne\menu.cpp(89,27): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  Sailboat.cpp
+  Submarine.cpp
   Создание кода...
   TechProgOne.vcxproj -> C:\Users\dimka\OneDrive\Рабочий стол\Технология Программирования\Лабароторная 1\TechProgOne\x64\Debug\TechProgOne.exe

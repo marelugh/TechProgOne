@@ -1,95 +1,64 @@
 #include "Submarine.h"
-#include <cstring>
+#include <iostream>
+#include <fstream>
+using namespace std;
 
-// Конструкторы и деструктор
-Submarine::Submarine() : length(0), width(0), crew(nullptr), crewSize(0), underwaterTime(0), underwaterSpeed(0), ammo(nullptr), ammoAmount(0) {}
-
-Submarine::Submarine(double length, double width, const char** crew, int crewSize, int underwaterTime, int underwaterSpeed, const char** ammo, int ammoAmount)
-    : length(length), width(width), crewSize(crewSize), underwaterTime(underwaterTime), underwaterSpeed(underwaterSpeed), ammoAmount(ammoAmount) {
-
-    // Копирование crew
-    this->crew = new char* [crewSize];
-    for (int i = 0; i < crewSize; ++i) {
-        this->crew[i] = new char[strlen(crew[i]) + 1];
-        strcpy(this->crew[i], crew[i]);
-    }
-
-    // Копирование ammo
-    this->ammo = new char* [ammoAmount];
-    for (int i = 0; i < ammoAmount; ++i) {
-        this->ammo[i] = new char[strlen(ammo[i]) + 1];
-        strcpy(this->ammo[i], ammo[i]);
-    }
+// Конструктор по умолчанию
+Submarine::Submarine()
+    : length(0), width(0), underwaterTime(0), underwaterSpeed(0), name("") {
+    cout << "Конструктор по умолчанию Submarine вызван" << endl;
 }
 
+// Конструктор с параметрами
+Submarine::Submarine(int length, int width, string crewMember, int underwaterTime, int underwaterSpeed, string ammoItem, string name)
+    : length(length), width(width), underwaterTime(underwaterTime), underwaterSpeed(underwaterSpeed), name(name) {
+    crew.addToTail(crewMember);
+    ammo.addToTail(ammoItem);
+    cout << "Конструктор с параметрами Submarine вызван" << endl;
+}
+
+// Конструктор копирования
 Submarine::Submarine(const Submarine& other)
-    : length(other.length), width(other.width), crewSize(other.crewSize), underwaterTime(other.underwaterTime), underwaterSpeed(other.underwaterSpeed), ammoAmount(other.ammoAmount) {
-
-    // Копирование crew
-    this->crew = new char* [other.crewSize];
-    for (int i = 0; i < other.crewSize; ++i) {
-        this->crew[i] = new char[strlen(other.crew[i]) + 1];
-        strcpy(this->crew[i], other.crew[i]);
-    }
-
-    // Копирование ammo
-    this->ammo = new char* [other.ammoAmount];
-    for (int i = 0; i < other.ammoAmount; ++i) {
-        this->ammo[i] = new char[strlen(other.ammo[i]) + 1];
-        strcpy(this->ammo[i], other.ammo[i]);
-    }
+    : length(other.length), width(other.width), crew(other.crew), underwaterTime(other.underwaterTime), underwaterSpeed(other.underwaterSpeed), ammo(other.ammo), name(other.name) {
+    cout << "Конструктор копирования Submarine вызван" << endl;
 }
 
+// Деструктор
 Submarine::~Submarine() {
-    for (int i = 0; i < crewSize; ++i) {
-        delete[] crew[i];
-    }
-    delete[] crew;
-
-    for (int i = 0; i < ammoAmount; ++i) {
-        delete[] ammo[i];
-    }
-    delete[] ammo;
+    cout << "Деструктор Submarine вызван" << endl;
 }
 
 // Геттеры и сеттеры
-
-double Submarine::getLength() const {
+int Submarine::getLength() const {
     return length;
 }
 
-void Submarine::setLength(double length) {
+void Submarine::setLength(int length) {
     this->length = length;
 }
 
-double Submarine::getWidth() const {
+string Submarine::getName() const {
+    return name;
+}
+
+void Submarine::setName(const string& name) {
+    this->name = name;
+}
+
+int Submarine::getWidth() const {
     return width;
 }
 
-void Submarine::setWidth(double width) {
+void Submarine::setWidth(int width) {
     this->width = width;
 }
 
-char** Submarine::getCrew() const {
+List Submarine::getCrew() const {
     return crew;
 }
 
-int Submarine::getCrewSize() const {
-    return crewSize;
-}
-
-void Submarine::setCrew(const char** crew, int crewSize) {
-    for (int i = 0; i < this->crewSize; ++i) {
-        delete[] this->crew[i];
-    }
-    delete[] this->crew;
-
-    this->crewSize = crewSize;
-    this->crew = new char* [crewSize];
-    for (int i = 0; i < crewSize; ++i) {
-        this->crew[i] = new char[strlen(crew[i]) + 1];
-        strcpy(this->crew[i], crew[i]);
-    }
+void Submarine::setCrew(const string& crewMember) {
+    crew.addToTail(crewMember);
 }
 
 int Submarine::getUnderwaterTime() const {
@@ -108,24 +77,213 @@ void Submarine::setUnderwaterSpeed(int underwaterSpeed) {
     this->underwaterSpeed = underwaterSpeed;
 }
 
-char** Submarine::getAmmo() const {
+List Submarine::getAmmo() const {
     return ammo;
 }
 
-int Submarine::getAmmoAmount() const {
-    return ammoAmount;
+void Submarine::setAmmo(const string& ammoItem) {
+    ammo.addToTail(ammoItem);
 }
 
-void Submarine::setAmmo(const char** ammo, int ammoAmount) {
-    for (int i = 0; i < this->ammoAmount; ++i) {
-        delete[] this->ammo[i];
-    }
-    delete[] this->ammo;
+// Метод для ввода данных
+void Submarine::input() {
+    cout << "Введите название подлодки: ";
+    string name;
+    //cin.ignore();
+    cin >> name;
+    setName(name);
 
-    this->ammoAmount = ammoAmount;
-    this->ammo = new char* [ammoAmount];
-    for (int i = 0; i < ammoAmount; ++i) {
-        this->ammo[i] = new char[strlen(ammo[i]) + 1];
-        strcpy(this->ammo[i], ammo[i]);
+    cout << "Введите длину подлодки: ";
+    cin >> length;
+    setLength(length);
+
+    cout << "Введите ширину подлодки: ";
+    cin >> width;
+    setWidth(width);
+
+    cout << "Введите время под водой (в часах): ";
+    cin >> underwaterTime;
+    setUnderwaterTime(underwaterTime);
+
+    cout << "Введите подводную скорость (в узлах): ";
+    cin >> underwaterSpeed;
+    setUnderwaterSpeed(underwaterSpeed);
+
+    string crewMember;
+    cout << "Введите имя члена экипажа (или 'q' для завершения): ";
+    while (cin >> crewMember && crewMember != "q") {
+        setCrew(crewMember);
+        cout << "Введите имя члена экипажа (или 'q' для завершения): ";
+    }
+
+    string ammoItem;
+    cout << "Введите боеприпасы (или 'q' для завершения): ";
+    while (cin >> ammoItem && ammoItem != "q") {
+        setAmmo(ammoItem);
+        cout << "Введите боеприпасы (или 'q' для завершения): ";
+    }
+}
+
+// Метод для вывода данных
+void Submarine::print() {
+    cout << "Submarine:" << endl;
+    cout << "Name: " << name << endl;
+    cout << "Length: " << length << endl;
+    cout << "Width: " << width << endl;
+    cout << "Underwater Time: " << underwaterTime << " hours" << endl;
+    cout << "Underwater Speed: " << underwaterSpeed << " knots" << endl;
+
+    cout << "Crew: ";
+    Node* currentCrew = crew.getHead();
+    int i = 1;
+    while (currentCrew != nullptr) {
+        cout << i++ << ". " << currentCrew->item << ", ";
+        currentCrew = currentCrew->next;
+    }
+    cout << endl;
+
+    cout << "Ammo: ";
+    Node* currentAmmo = ammo.getHead();
+    i = 1;
+    while (currentAmmo != nullptr) {
+        cout << i++ << ". " << currentAmmo->item << ", ";
+        currentAmmo = currentAmmo->next;
+    }
+    cout << endl;
+    cout << '\n';
+}
+
+// Метод для сохранения в файл
+void Submarine::saveToFile(ofstream& file) {
+    file << "SUBMARINE" << endl;
+    file << "Name: " << name << endl;
+    file << "Length: " << length << endl;
+    file << "Width: " << width << endl;
+    file << "Underwater Time: " << underwaterTime << endl;
+    file << "Underwater Speed: " << underwaterSpeed << endl;
+
+    Node* currentCrew = crew.getHead();
+    file << "Crew: ";
+    while (currentCrew != nullptr) {
+        file << currentCrew->item << ", ";
+        currentCrew = currentCrew->next;
+    }
+    file << endl;
+
+    Node* currentAmmo = ammo.getHead();
+    file << "Ammo: ";
+    while (currentAmmo != nullptr) {
+        file << currentAmmo->item << ", ";
+        currentAmmo = currentAmmo->next;
+    }
+    file << endl;
+    file << '\n';
+}
+
+// Метод для загрузки из файла
+void Submarine::loadFromFile(ifstream& file) {
+    string line;
+    getline(file, line); // Пропускаем "SUBMARINE"
+
+    getline(file, line);
+    setName(line.substr(line.find(":") + 1));
+
+    getline(file, line);
+    setLength(stoi(line.substr(line.find(":") + 1)));
+
+    getline(file, line);
+    setWidth(stoi(line.substr(line.find(":") + 1)));
+
+    getline(file, line);
+    setUnderwaterTime(stoi(line.substr(line.find(":") + 1)));
+
+    getline(file, line);
+    setUnderwaterSpeed(stoi(line.substr(line.find(":") + 1)));
+
+    // Чтение экипажа
+    getline(file, line);
+    size_t pos = 0;
+    while ((pos = line.find(",")) != string::npos) {
+        string crewMember = line.substr(0, pos);
+        setCrew(crewMember);
+        line.erase(0, pos + 1);
+    }
+
+    // Чтение боеприпасов
+    getline(file, line);
+    pos = 0;
+    while ((pos = line.find(",")) != string::npos) {
+        string ammoItem = line.substr(0, pos);
+        setAmmo(ammoItem);
+        line.erase(0, pos + 1);
+    }
+}
+
+void Submarine::change() {
+    int command = 0;
+
+    while (command != 6) {
+        cout << "Выберите какое значение вы хотите поменять\n1.Длина\n2.Ширина\n3.Время нахождения под водой\n4.Скорость под водой\n5.Название\n";
+        cin >> command;
+        switch (command) {
+        case 1: {
+            int length;
+            system("cls");
+            cout << "Введите новую длину\nLength:";
+            cin >> length;
+            setLength(length);
+            cout << "Успешно!";
+            system("pause");
+            system("cls");
+            break;
+        }
+        case 2: {
+            int width;
+            system("cls");
+            cout << "Введите новую ширину\nWidth:";
+            cin >> width;
+            setWidth(width);
+            cout << "Успешно!";
+            system("pause");
+            system("cls");
+            break;
+        }
+        case 3: {
+            int underwaterTime;
+            system("cls");
+            cout << "Введите новое время нахождения под водой\nUnderwater Time:";
+            cin >> underwaterTime;
+            setUnderwaterTime(underwaterTime);
+            cout << "Успешно!";
+            system("pause");
+            system("cls");
+            break;
+        }
+        case 4: {
+            int underwaterSpeed;
+            system("cls");
+            cout << "Введите новую скорость под водой\nUnderwater Speed:";
+            cin >> underwaterSpeed;
+            setUnderwaterSpeed(underwaterSpeed);
+            cout << "Успешно!";
+            system("pause");
+            system("cls");
+            break;
+        }
+        case 5: {
+            string name;
+            system("cls");
+            cout << "Введите новое имя\nName:";
+            cin >> name;
+            setName(name);
+            cout << "Успешно!";
+            system("pause");
+            system("cls");
+            break;
+        }
+        case 6: {
+            break;
+        }
+        }
     }
 }

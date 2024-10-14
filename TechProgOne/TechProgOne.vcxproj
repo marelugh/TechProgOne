@@ -128,6 +128,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Boat.cpp" />
+    <ClCompile Include="Keeper.cpp" />
+    <ClCompile Include="LinkedList.cpp" />
+    <ClCompile Include="List.cpp" />
     <ClCompile Include="Sailboat.cpp" />
     <ClCompile Include="Ship.cpp" />
     <ClCompile Include="Submarine.cpp" />
@@ -135,6 +138,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Boat.h" />
+    <ClInclude Include="Keeper.h" />
+    <ClInclude Include="LinkedList.h" />
+    <ClInclude Include="List.h" />
     <ClInclude Include="Sailboat.h" />
     <ClInclude Include="Ship.h" />
     <ClInclude Include="Submarine.h" />
