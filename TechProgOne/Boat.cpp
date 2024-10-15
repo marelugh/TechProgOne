@@ -180,17 +180,19 @@ void Boat::loadFromFile(ifstream& file) {
     }
 }
 
+
 void Boat::change() {
     int command = 0;
 
-    while (command != 6) {
-        cout << "Выберите какое значение вы хотите поменять\n1.Назначение\n2.Материал\n3.Скорость\n4.Количество экипажа\n5.Название\n";
+    while (command != 9) {
+        cout << "Выберите, какое значение вы хотите поменять\n"
+            << "1. Назначение\n2. Материал\n3. Скорость\n4. Количество экипажа\n5. Название\n6. Качества\n7. Добавить новое качество\n8. Выход\n";
         cin >> command;
         switch (command) {
         case 1: {
             string purpose;
             system("cls");
-            cout << "Введите новое назначение лодки\nPurpose:";
+            cout << "Введите новое назначение лодки\nPurpose: ";
             cin >> purpose;
             setPurpose(purpose);
             cout << "Успешно!";
@@ -201,7 +203,7 @@ void Boat::change() {
         case 2: {
             string material;
             system("cls");
-            cout << "Введите новый материал\nMaterial:";
+            cout << "Введите новый материал\nMaterial: ";
             cin >> material;
             setMaterial(material);
             cout << "Успешно!";
@@ -212,7 +214,7 @@ void Boat::change() {
         case 3: {
             int speed;
             system("cls");
-            cout << "Введите новую скорость\nSpeed:";
+            cout << "Введите новую скорость\nSpeed: ";
             cin >> speed;
             setSpeed(speed);
             cout << "Успешно!";
@@ -223,7 +225,7 @@ void Boat::change() {
         case 4: {
             int amountOfPeople;
             system("cls");
-            cout << "Введите новое число экипажа\nAmount of people:";
+            cout << "Введите новое число экипажа\nAmount of people: ";
             cin >> amountOfPeople;
             setAmountOfPeople(amountOfPeople);
             cout << "Успешно!";
@@ -234,7 +236,7 @@ void Boat::change() {
         case 5: {
             string boatName;
             system("cls");
-            cout << "Введите новое название\nName:";
+            cout << "Введите новое название\nName: ";
             cin >> boatName;
             setName(boatName);
             cout << "Успешно!";
@@ -242,9 +244,105 @@ void Boat::change() {
             system("cls");
             break;
         }
-        case 6: {
+        case 6: { // Изменение элемента списка "qualities"
+            List qualities = getQualities();
+            Node* current = qualities.getHead();
+
+            if (current == nullptr) {
+                cout << "Список качеств пуст!\n";
+                system("pause");
+                system("cls");
+                break;
+            }
+
+            int index = 0;
+            cout << "Список качеств:\n";
+            while (current != nullptr) {
+                cout << index + 1 << ". " << current->item << endl;
+                current = current->next;
+                index++;
+            }
+
+            cout << "Введите номер качества, которое хотите изменить: ";
+            int qualityIndex;
+            cin >> qualityIndex;
+            qualityIndex--; // Приводим к индексу массива
+
+            if (qualityIndex < 0 || qualityIndex >= index) {
+                cout << "Неверный индекс качества!\n";
+                system("pause");
+                system("cls");
+                break;
+            }
+
+            cout << "Введите новое качество: ";
+            string newQuality;
+            cin.ignore();
+            getline(cin, newQuality);
+
+            qualities[qualityIndex].item = newQuality;
+            cout << "Качество успешно изменено!\n";
+            system("pause");
+            system("cls");
+            break;
+        }
+        case 7: { // Добавление нового качества в список
+            string newQuality;
+            cout << "Введите новое качество лодки: ";
+            cin.ignore();
+            getline(cin, newQuality);
+            qualities.addToTail(newQuality);  // Добавляем новое качество в конец списка
+            cout << "Новое качество успешно добавлено!\n";
+            system("pause");
+            system("cls");
+            break;
+        }
+        case 8: { // Изменение элемента списка "qualities"
+            List qualities = getQualities();
+            Node* current = qualities.getHead();
+
+            if (current == nullptr) {
+                cout << "Список качеств пуст!\n";
+                system("pause");
+                system("cls");
+                break;
+            }
+
+            int index = 0;
+            cout << "Список качеств:\n";
+            while (current != nullptr) {
+                cout << index + 1 << ". " << current->item << endl;
+                current = current->next;
+                index++;
+            }
+
+            cout << "Введите номер качества, которое хотите изменить: ";
+            int qualityIndex;
+            cin >> qualityIndex;
+            qualityIndex--; // Приводим к индексу массива
+
+            if (qualityIndex < 0 || qualityIndex >= index) {
+                cout << "Неверный индекс качества!\n";
+                system("pause");
+                system("cls");
+                break;
+            }
+
+            cout << "Введите новое качество: ";
+            string newQuality;
+            cin.ignore();
+            getline(cin, newQuality);
+
+            qualities[qualityIndex].item = newQuality;
+            cout << "Качество успешно изменено!\n";
+            system("pause");
+            system("cls");
+            break;
+        }
+        case 9: {
             break;
         }
         }
     }
 }
+

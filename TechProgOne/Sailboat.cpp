@@ -184,7 +184,7 @@ void Sailboat::change() {
     int command = 0;
 
     while (command != 6) {
-        cout << "Выберите какое значение вы хотите поменять\n1.Тип\n2.Название\n3.Военный(да/нет)\n4.Длина\n5.Скорость\n";
+        cout << "Выберите какое значение вы хотите поменять\n1.Тип\n2.Название\n3.Военный(да/нет)\n4.Длина\n5.Скорость\n6.Экипаж\n7.Добавить челна экипажа\n8.Выход";
         cin >> command;
         switch (command) {
         case 1: {
@@ -242,7 +242,60 @@ void Sailboat::change() {
             system("cls");
             break;
         }
-        case 6: {
+        case 6: { // Изменение элемента списка "crew"
+            List crew = getCrew();
+            Node* current = crew.getHead();
+
+            if (current == nullptr) {
+                cout << "Список экипажа пуст!\n";
+                system("pause");
+                system("cls");
+                break;
+            }
+
+            int index = 0;
+            cout << "Список экипажа:\n";
+            while (current != nullptr) {
+                cout << index + 1 << ". " << current->item << endl;
+                current = current->next;
+                index++;
+            }
+
+            cout << "Введите номер члена экипажа, которого хотите изменить: ";
+            int crewIndex;
+            cin >> crewIndex;
+            crewIndex--; // Приводим к индексу массива
+
+            if (crewIndex < 0 || crewIndex >= index) {
+                cout << "Неверный индекс!\n";
+                system("pause");
+                system("cls");
+                break;
+            }
+
+            cout << "Введите новое качество: ";
+            string newCrew;
+            cin.ignore();
+            getline(cin, newCrew);
+
+            crew[crewIndex].item = newCrew;
+            cout << "Член экипажа успешно изменен!\n";
+            system("pause");
+            system("cls");
+            break;
+        }
+        case 7: { // Добавление нового качества в список
+            string addCrew;
+            cout << "Введите нового члена экипажа: ";
+            cin.ignore();
+            getline(cin, addCrew);
+            crew.addToTail(addCrew);  // Добавляем новое качество в конец списка
+            cout << "Новый член экипажа добавлен!\n";
+            system("pause");
+            system("cls");
+            break;
+        }
+        case 8: {
             break;
         }
         }
