@@ -134,17 +134,17 @@ void Sailboat::print() {
 
 void Sailboat::saveToFile(ofstream& file) {
     file << "SAILBOAT" << endl;
-    file << "Тип: " << getType() << endl;
-    file << "Название: " << getName() << endl;
-    file << "Военный: " << getIsMilitary() << endl;
-    file << "Длина: " << getLength() << endl;
-    file << "Скорость: " << getSpeed() << endl;
+    file << "Тип:" << getType() << endl;
+    file << "Название:" << getName() << endl;
+    file << "Военный:" << getIsMilitary() << endl;
+    file << "Длина:" << getLength() << endl;
+    file << "Скорость:" << getSpeed() << endl;
 
     List crew = getCrew();
     Node* current = crew.getHead();
     int i = 1;
     while (current != nullptr) {
-        file << i++ << ". Член экипажа: " << current->item << endl;
+        file << i++ << ". Член экипажа:" << current->item << endl;
         current = current->next;
     }
     file << endl;
@@ -183,7 +183,7 @@ void Sailboat::loadFromFile(ifstream& file) {
 void Sailboat::change() {
     int command = 0;
 
-    while (command != 6) {
+    while (command != 8) {
         cout << "Выберите какое значение вы хотите поменять\n1.Тип\n2.Название\n3.Военный(да/нет)\n4.Длина\n5.Скорость\n6.Экипаж\n7.Добавить челна экипажа\n8.Выход";
         cin >> command;
         switch (command) {

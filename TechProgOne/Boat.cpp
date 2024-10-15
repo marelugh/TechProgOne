@@ -134,17 +134,17 @@ void Boat::print() {
 
 void Boat::saveToFile(ofstream& file) {
     file << "BOAT" << endl;
-    file << "Название: " << getName() << endl;
-    file << "Назначение: " << getPurpose() << endl;
-    file << "Материал: " << getMaterial() << endl;
-    file << "Скорость: " << getSpeed() << endl;
-    file << "Количество людей: " << getAmountOfPeople() << endl;
+    file << "Название:" << getName() << endl;
+    file << "Назначение:" << getPurpose() << endl;
+    file << "Материал:" << getMaterial() << endl;
+    file << "Скорость:" << getSpeed() << endl;
+    file << "Количество людей:" << getAmountOfPeople() << endl;
 
     List qualities = getQualities();
     Node* current = qualities.getHead();
     int i = 1;
     while (current != nullptr) {
-        file << i++ << ". Качество: " << current->item << endl;
+        file << i++ << ". Качество:" << current->item << endl;
         current = current->next;
     }
     file << endl;
@@ -186,7 +186,7 @@ void Boat::change() {
 
     while (command != 9) {
         cout << "Выберите, какое значение вы хотите поменять\n"
-            << "1. Назначение\n2. Материал\n3. Скорость\n4. Количество экипажа\n5. Название\n6. Качества\n7. Добавить новое качество\n8. Выход\n";
+            << "1. Назначение\n2. Материал\n3. Скорость\n4. Количество экипажа\n5. Название\n6. Качества\n7. Добавить новое качество\n8.Изменить качество\n9. Выход\n";
         cin >> command;
         switch (command) {
         case 1: {

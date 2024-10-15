@@ -156,14 +156,14 @@ void Submarine::print() {
 // Метод для сохранения в файл
 void Submarine::saveToFile(ofstream& file) {
     file << "SUBMARINE" << endl;
-    file << "Name: " << name << endl;
-    file << "Length: " << length << endl;
-    file << "Width: " << width << endl;
-    file << "Underwater Time: " << underwaterTime << endl;
-    file << "Underwater Speed: " << underwaterSpeed << endl;
+    file << "Name:" << name << endl;
+    file << "Length:" << length << endl;
+    file << "Width:" << width << endl;
+    file << "Underwater Time:" << underwaterTime << endl;
+    file << "Underwater Speed:" << underwaterSpeed << endl;
 
     Node* currentCrew = crew.getHead();
-    file << "Crew: ";
+    file << "Crew:";
     while (currentCrew != nullptr) {
         file << currentCrew->item << ", ";
         currentCrew = currentCrew->next;
@@ -171,7 +171,7 @@ void Submarine::saveToFile(ofstream& file) {
     file << endl;
 
     Node* currentAmmo = ammo.getHead();
-    file << "Ammo: ";
+    file << "Ammo:";
     while (currentAmmo != nullptr) {
         file << currentAmmo->item << ", ";
         currentAmmo = currentAmmo->next;

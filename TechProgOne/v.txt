@@ -1,3 +1,0 @@
-1
-class Sailboat
-davai 3 мачтовый 0 500 50 35

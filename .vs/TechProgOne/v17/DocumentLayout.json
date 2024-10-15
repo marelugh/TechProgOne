@@ -3,52 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{05D69CCF-AA19-45F9-9471-0504CF3EEFE1}|TechProgOne\\TechProgOne.vcxproj|C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\Boat.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{05D69CCF-AA19-45F9-9471-0504CF3EEFE1}|TechProgOne\\TechProgOne.vcxproj|solutionrelative:TechProgOne\\Boat.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{05D69CCF-AA19-45F9-9471-0504CF3EEFE1}|TechProgOne\\TechProgOne.vcxproj|C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\Submarine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{05D69CCF-AA19-45F9-9471-0504CF3EEFE1}|TechProgOne\\TechProgOne.vcxproj|solutionrelative:TechProgOne\\Submarine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05D69CCF-AA19-45F9-9471-0504CF3EEFE1}|TechProgOne\\TechProgOne.vcxproj|C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\Boat.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{05D69CCF-AA19-45F9-9471-0504CF3EEFE1}|TechProgOne\\TechProgOne.vcxproj|solutionrelative:TechProgOne\\Boat.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05D69CCF-AA19-45F9-9471-0504CF3EEFE1}|TechProgOne\\TechProgOne.vcxproj|C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\Ship.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{05D69CCF-AA19-45F9-9471-0504CF3EEFE1}|TechProgOne\\TechProgOne.vcxproj|solutionrelative:TechProgOne\\Ship.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05D69CCF-AA19-45F9-9471-0504CF3EEFE1}|TechProgOne\\TechProgOne.vcxproj|C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\Keeper.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{05D69CCF-AA19-45F9-9471-0504CF3EEFE1}|TechProgOne\\TechProgOne.vcxproj|solutionrelative:TechProgOne\\Keeper.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05D69CCF-AA19-45F9-9471-0504CF3EEFE1}|TechProgOne\\TechProgOne.vcxproj|C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\List.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{05D69CCF-AA19-45F9-9471-0504CF3EEFE1}|TechProgOne\\TechProgOne.vcxproj|solutionrelative:TechProgOne\\List.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{05D69CCF-AA19-45F9-9471-0504CF3EEFE1}|TechProgOne\\TechProgOne.vcxproj|C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\Sailboat.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{05D69CCF-AA19-45F9-9471-0504CF3EEFE1}|TechProgOne\\TechProgOne.vcxproj|solutionrelative:TechProgOne\\Sailboat.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{05D69CCF-AA19-45F9-9471-0504CF3EEFE1}|TechProgOne\\TechProgOne.vcxproj|C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\Submarine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{05D69CCF-AA19-45F9-9471-0504CF3EEFE1}|TechProgOne\\TechProgOne.vcxproj|solutionrelative:TechProgOne\\Submarine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05D69CCF-AA19-45F9-9471-0504CF3EEFE1}|TechProgOne\\TechProgOne.vcxproj|C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\List.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{05D69CCF-AA19-45F9-9471-0504CF3EEFE1}|TechProgOne\\TechProgOne.vcxproj|solutionrelative:TechProgOne\\List.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{05D69CCF-AA19-45F9-9471-0504CF3EEFE1}|TechProgOne\\TechProgOne.vcxproj|C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\Boat.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{05D69CCF-AA19-45F9-9471-0504CF3EEFE1}|TechProgOne\\TechProgOne.vcxproj|solutionrelative:TechProgOne\\Boat.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{05D69CCF-AA19-45F9-9471-0504CF3EEFE1}|TechProgOne\\TechProgOne.vcxproj|C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\Sailboat.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{05D69CCF-AA19-45F9-9471-0504CF3EEFE1}|TechProgOne\\TechProgOne.vcxproj|solutionrelative:TechProgOne\\Sailboat.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{05D69CCF-AA19-45F9-9471-0504CF3EEFE1}|TechProgOne\\TechProgOne.vcxproj|C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\Submarine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{05D69CCF-AA19-45F9-9471-0504CF3EEFE1}|TechProgOne\\TechProgOne.vcxproj|solutionrelative:TechProgOne\\Submarine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{05D69CCF-AA19-45F9-9471-0504CF3EEFE1}|TechProgOne\\TechProgOne.vcxproj|C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\TechProgOne.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{05D69CCF-AA19-45F9-9471-0504CF3EEFE1}|TechProgOne\\TechProgOne.vcxproj|solutionrelative:TechProgOne\\TechProgOne.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{05D69CCF-AA19-45F9-9471-0504CF3EEFE1}|TechProgOne\\TechProgOne.vcxproj|C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\Keeper.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{05D69CCF-AA19-45F9-9471-0504CF3EEFE1}|TechProgOne\\TechProgOne.vcxproj|solutionrelative:TechProgOne\\Keeper.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{05D69CCF-AA19-45F9-9471-0504CF3EEFE1}|TechProgOne\\TechProgOne.vcxproj|C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\Keeper.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{05D69CCF-AA19-45F9-9471-0504CF3EEFE1}|TechProgOne\\TechProgOne.vcxproj|solutionrelative:TechProgOne\\Keeper.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05D69CCF-AA19-45F9-9471-0504CF3EEFE1}|TechProgOne\\TechProgOne.vcxproj|C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\Ship.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{05D69CCF-AA19-45F9-9471-0504CF3EEFE1}|TechProgOne\\TechProgOne.vcxproj|solutionrelative:TechProgOne\\Ship.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05D69CCF-AA19-45F9-9471-0504CF3EEFE1}|TechProgOne\\TechProgOne.vcxproj|C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\List.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{05D69CCF-AA19-45F9-9471-0504CF3EEFE1}|TechProgOne\\TechProgOne.vcxproj|solutionrelative:TechProgOne\\List.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05D69CCF-AA19-45F9-9471-0504CF3EEFE1}|TechProgOne\\TechProgOne.vcxproj|C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\List.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{05D69CCF-AA19-45F9-9471-0504CF3EEFE1}|TechProgOne\\TechProgOne.vcxproj|solutionrelative:TechProgOne\\List.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{05D69CCF-AA19-45F9-9471-0504CF3EEFE1}|TechProgOne\\TechProgOne.vcxproj|C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\LinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -57,6 +49,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{05D69CCF-AA19-45F9-9471-0504CF3EEFE1}|TechProgOne\\TechProgOne.vcxproj|C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\LinkedList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{05D69CCF-AA19-45F9-9471-0504CF3EEFE1}|TechProgOne\\TechProgOne.vcxproj|solutionrelative:TechProgOne\\LinkedList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05D69CCF-AA19-45F9-9471-0504CF3EEFE1}|TechProgOne\\TechProgOne.vcxproj|C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\Boat.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{05D69CCF-AA19-45F9-9471-0504CF3EEFE1}|TechProgOne\\TechProgOne.vcxproj|solutionrelative:TechProgOne\\Boat.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05D69CCF-AA19-45F9-9471-0504CF3EEFE1}|TechProgOne\\TechProgOne.vcxproj|C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\Keeper.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{05D69CCF-AA19-45F9-9471-0504CF3EEFE1}|TechProgOne\\TechProgOne.vcxproj|solutionrelative:TechProgOne\\Keeper.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05D69CCF-AA19-45F9-9471-0504CF3EEFE1}|TechProgOne\\TechProgOne.vcxproj|C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\Ship.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{05D69CCF-AA19-45F9-9471-0504CF3EEFE1}|TechProgOne\\TechProgOne.vcxproj|solutionrelative:TechProgOne\\Ship.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,30 +70,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Keeper.h",
               "DocumentMoniker": "C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\Keeper.h",
               "RelativeDocumentMoniker": "TechProgOne\\Keeper.h",
               "ToolTip": "C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\Keeper.h",
               "RelativeToolTip": "TechProgOne\\Keeper.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-10-14T13:07:03.987Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Keeper.cpp",
               "DocumentMoniker": "C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\Keeper.cpp",
               "RelativeDocumentMoniker": "TechProgOne\\Keeper.cpp",
               "ToolTip": "C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\Keeper.cpp",
               "RelativeToolTip": "TechProgOne\\Keeper.cpp",
-              "ViewState": "AQIAAFsAAAAAAAAAAAAAAHUAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-14T13:06:56.676Z",
               "IsPinned": true,
@@ -97,7 +102,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
+              "Title": "Ship.h",
+              "DocumentMoniker": "C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\Ship.h",
+              "RelativeDocumentMoniker": "TechProgOne\\Ship.h",
+              "ToolTip": "C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\Ship.h",
+              "RelativeToolTip": "TechProgOne\\Ship.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-15T10:19:53.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Ship.cpp",
               "DocumentMoniker": "C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\Ship.cpp",
               "RelativeDocumentMoniker": "TechProgOne\\Ship.cpp",
@@ -105,12 +123,11 @@
               "RelativeToolTip": "TechProgOne\\Ship.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-15T08:01:15.471Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T08:01:15.471Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "List.h",
               "DocumentMoniker": "C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\List.h",
               "RelativeDocumentMoniker": "TechProgOne\\List.h",
@@ -123,130 +140,133 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "List.cpp",
               "DocumentMoniker": "C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\List.cpp",
               "RelativeDocumentMoniker": "TechProgOne\\List.cpp",
               "ToolTip": "C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\List.cpp",
               "RelativeToolTip": "TechProgOne\\List.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-15T07:22:54.124Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "Submarine.h",
               "DocumentMoniker": "C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\Submarine.h",
               "RelativeDocumentMoniker": "TechProgOne\\Submarine.h",
               "ToolTip": "C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\Submarine.h",
               "RelativeToolTip": "TechProgOne\\Submarine.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAADYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-10-14T17:50:54.074Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
               "Title": "Sailboat.h",
               "DocumentMoniker": "C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\Sailboat.h",
               "RelativeDocumentMoniker": "TechProgOne\\Sailboat.h",
               "ToolTip": "C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\Sailboat.h",
               "RelativeToolTip": "TechProgOne\\Sailboat.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB4AAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-10-14T17:34:28.184Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Submarine.cpp",
               "DocumentMoniker": "C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\Submarine.cpp",
               "RelativeDocumentMoniker": "TechProgOne\\Submarine.cpp",
               "ToolTip": "C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\Submarine.cpp",
               "RelativeToolTip": "TechProgOne\\Submarine.cpp",
-              "ViewState": "AQIAAEwBAAAAAAAAAAAAAHoBAAA4AAAA",
+              "ViewState": "AQIAAI8AAAAAAAAAAAAAAKUAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-14T17:33:48.37Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Sailboat.cpp",
               "DocumentMoniker": "C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\Sailboat.cpp",
               "RelativeDocumentMoniker": "TechProgOne\\Sailboat.cpp",
               "ToolTip": "C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\Sailboat.cpp",
               "RelativeToolTip": "TechProgOne\\Sailboat.cpp",
-              "ViewState": "AQIAAA4BAAAAAAAAAAAAACQBAAAwAAAA",
+              "ViewState": "AQIAAIEAAAAAAAAAAAAAAJIAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-14T17:33:41.218Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Boat.cpp",
               "DocumentMoniker": "C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\Boat.cpp",
               "RelativeDocumentMoniker": "TechProgOne\\Boat.cpp",
               "ToolTip": "C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\Boat.cpp",
               "RelativeToolTip": "TechProgOne\\Boat.cpp",
-              "ViewState": "AQIAAKsAAAAAAAAAAAAAAL8AAAARAAAA",
+              "ViewState": "AQIAAHwAAAAAAAAAAAAAAJIAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-14T17:30:52.104Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
               "Title": "Boat.h",
               "DocumentMoniker": "C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\Boat.h",
               "RelativeDocumentMoniker": "TechProgOne\\Boat.h",
               "ToolTip": "C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\Boat.h",
               "RelativeToolTip": "TechProgOne\\Boat.h",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAAC0AAAAmAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAADEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-10-14T17:30:49.771Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 10,
               "Title": "LinkedList.cpp",
               "DocumentMoniker": "C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\LinkedList.cpp",
               "RelativeDocumentMoniker": "TechProgOne\\LinkedList.cpp",
               "ToolTip": "C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\LinkedList.cpp",
               "RelativeToolTip": "TechProgOne\\LinkedList.cpp",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAADcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-14T14:06:17.483Z"
+              "WhenOpened": "2024-10-14T14:06:17.483Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 11,
               "Title": "LinkedList.h",
               "DocumentMoniker": "C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\LinkedList.h",
               "RelativeDocumentMoniker": "TechProgOne\\LinkedList.h",
               "ToolTip": "C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\LinkedList.h",
               "RelativeToolTip": "TechProgOne\\LinkedList.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-14T14:06:11.239Z"
+              "WhenOpened": "2024-10-14T14:06:11.239Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 5,
               "Title": "TechProgOne.cpp",
               "DocumentMoniker": "C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\TechProgOne.cpp",
               "RelativeDocumentMoniker": "TechProgOne\\TechProgOne.cpp",
               "ToolTip": "C:\\Users\\dimka\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041B\u0430\u0431\u0430\u0440\u043E\u0442\u043E\u0440\u043D\u0430\u044F 1\\TechProgOne\\TechProgOne\\TechProgOne.cpp",
               "RelativeToolTip": "TechProgOne\\TechProgOne.cpp",
-              "ViewState": "AQIAAEsAAAAAAAAAAAAAAF0AAAAaAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-10T06:28:53.794Z"
+              "WhenOpened": "2024-09-10T06:28:53.794Z",
+              "EditorCaption": ""
             }
           ]
         }

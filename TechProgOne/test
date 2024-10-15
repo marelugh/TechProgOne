@@ -1,0 +1,27 @@
+SUBMARINE
+Name: perviy
+Length: 150
+Width: 40
+Underwater Time: 45
+Underwater Speed: 30
+Crew: Nabokov, Ivanov, Sokolov, 
+Ammo: 140mm, 240mm, 
+
+BOAT
+Название: perviy
+Назначение: ishing
+Материал: Wood
+Скорость: 25
+Количество людей: 6
+1. Качество: Kilevatost
+2. Качество: Bistrohodnost
+
+SAILBOAT
+Тип: perviy
+Название: Pearl
+Военный: 1
+Длина: 150
+Скорость: 40
+1. Член экипажа: BlackBeard
+2. Член экипажа: Swallow
+
